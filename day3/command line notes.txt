@@ -1,0 +1,22 @@
+vim file_name.txt to edit file_name.txt
+then 'insert' key
+start typing to enter text into file
+to close, esc then :wq
+
+cd - change directory
+cd .. go back one dir level
+cd directory name to enter that dir
+cd ../dir_name to go back one level and then go into dir_name
+
+to copy to another dir
+cp common_file.txt ../javascript - copies file.js back one level and into dir javascript
+
+move file
+mv file.js ../javascript - moves file.js back one level and into dir javascript
+
+remove dir
+rm -r remove dir recursively (including any files in it)
+rmdir -remove dir
+
+make dir 
+mkdir

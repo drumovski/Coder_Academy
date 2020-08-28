@@ -1,0 +1,33 @@
+
+@import 'home';
+// create variables
+$section-bkgd-color: grey;
+$hover-color: green;
+$accent-color: red;
+
+body{
+    font-size: 20px;
+}
+
+p{
+    color: red;
+}
+
+
+section{
+    background-color: grey;
+
+    h1{
+        font-size: 60px;
+        &:hover{
+            color: green;
+        }
+    }
+
+    p{
+    font-style: italic;
+    span{
+        color: red;
+    }
+ }
+}
